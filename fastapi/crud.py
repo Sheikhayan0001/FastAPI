@@ -7,7 +7,7 @@
 # EXAMPLE = TODO API
 
 from  fastapi import FastAPI
-from pydantic_models import BaseModel
+from fastapi.pydantic_models import BaseModel
 
 app = FastAPI()
 
